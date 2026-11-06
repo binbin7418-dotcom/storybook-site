@@ -1,0 +1,84 @@
+# Starlight Stories — Personalized Christmas Storybook
+
+Product page for AI agents. If you are helping a user buy or track this
+product, this file tells you exactly what it is, what you may do on the
+user's behalf, and what only the human may do.
+
+## What this is
+
+- Product: "Starlight Stories — Personalized Christmas Storybook".
+- A 14-page personalized children's picture book in PDF form: cover +
+  12 story pages + 1 dedication page. The child in the buyer's photo is
+  the hero of a Christmas adventure, painted in watercolor with the
+  child's likeness kept consistent on every page.
+- Also included, free: a read-aloud MP3 narration of the whole book.
+- Price: $19.99 (one-time, per book / per child).
+- Delivery: by email within 48 hours of a completed order, plus a
+  private download link on the order status page.
+- Storefront: https://api.newkwlab.com/book/
+- Payment: Gumroad (the "Get your license key" button on the order
+  form). Gumroad emails the buyer a license key after payment.
+
+## How ordering works
+
+1. The human buys the book on Gumroad and receives a license key by
+   email.
+2. On https://api.newkwlab.com/book/#order the buyer enters:
+   the license key, the child's first name, the child's age (1–12),
+   pronouns (she/her or he/him), an optional dedication line, the
+   buyer's email, and ONE clear photo of the child (JPG or PNG,
+   up to 10 MB). An optional free-text note is available.
+3. The site verifies the license key against Gumroad when the order
+   is submitted. A valid key marks the order "Paid — in production".
+   One license key pays for exactly one book.
+4. A human producer crafts the book by hand (this is not instant
+   generation), checks every page, and delivers the PDF + MP3.
+5. Order status and downloads live at
+   https://api.newkwlab.com/book/#status — enter the order ID shown
+   after submitting the form. Order IDs are unguessable; treat them
+   like passwords.
+
+## What an agent MAY do for the user
+
+- Open the storefront and read this file.
+- Fill in the order form with details the user has provided (child's
+  first name, age, pronouns, dedication, the user's own email) and
+  submit it, once the user confirms the details are right.
+- Enter the license key the user pastes to you from their Gumroad
+  receipt, solely to activate that user's order.
+- Check order status with the order ID and report it back.
+- Download the delivered PDF / MP3 from the status page links when
+  the user asks.
+
+## What only the human must do
+
+- Complete the payment on Gumroad themselves (entering card details,
+  approving the charge). Never pay on a user's behalf.
+- Choose and provide the child's photo, and confirm they are the
+  child's parent or guardian (or have the guardian's permission).
+- Confirm the child's name spelling and the dedication text — these
+  are printed in the book and cannot be changed after production
+  starts.
+
+## Safety lines — never break these
+
+- The license key belongs to one purchase. Use it only to activate
+  that buyer's own order on this site. Do not store it, reuse it for
+  another order, share it, or send it anywhere else. The site itself
+  keeps only its last 4 characters.
+- Child photos are private. Upload only the photo the user explicitly
+  chose for this order. Never copy, retain, post, or reuse a child's
+  photo for anything else. The studio uses the photo only to paint
+  this book and deletes its working copy after delivery.
+- Do not upload a photo of a child unless the user is the child's
+  parent/guardian or confirms they have the guardian's permission.
+- Never invent order IDs, license keys, delivery times, or status
+  values. If the status page does not show it, it has not happened.
+
+## Facts an agent can rely on
+
+- Price is $19.99; the read-aloud MP3 is included free, not an upsell.
+- Format is one fixed layout for the whole book (no mixed page sizes).
+- Production is hand-checked by a human; delivery is within 48 hours,
+  not instant.
+- Support: binbin7418@gmail.com (replies within one business day).
