@@ -106,6 +106,18 @@
   .fine{ color:var(--ink60); font-size:13.5px; line-height:1.65; }
   .hidden{ display:none !important; }
 
+  /* guarantee band */
+  .guarantee{ border:1.5px solid rgba(31,111,74,.38); background:linear-gradient(180deg,#eef6f0,#e7f2ea);
+    border-radius:26px; padding:26px 28px; margin-bottom:46px; }
+  .guarantee .ghead{ display:flex; align-items:center; gap:9px; font-family:"IBM Plex Mono",monospace;
+    font-size:11.5px; letter-spacing:.2em; text-transform:uppercase; color:var(--pine); margin-bottom:18px; }
+  .guarantee .ghead .star{ color:var(--gold); font-size:14px; }
+  .gitems{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+  @media (max-width:820px){ .gitems{ grid-template-columns:1fr; } }
+  .gitem .t{ font-weight:600; font-size:16px; letter-spacing:-.01em; display:flex; gap:9px; align-items:baseline; }
+  .gitem .t .ck{ color:var(--pine); font-weight:700; flex:none; }
+  .gitem .d{ color:var(--ink60); font-size:13.5px; line-height:1.55; margin-top:5px; }
+
   /* process */
   .proc{ position:relative; display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
   @media (max-width:820px){ .proc{ grid-template-columns:1fr; } }
@@ -267,6 +279,24 @@
 <div class="sheet">
   <div class="sheet-in">
 
+    <div class="guarantee reveal">
+      <div class="ghead"><span class="star">★</span> The Starlight likeness guarantee</div>
+      <div class="gitems">
+        <div class="gitem">
+          <div class="t"><span class="ck">✓</span> The same child on every page</div>
+          <div class="d">A person checks your child's likeness against your photo on every page before your book is delivered. A page that doesn't look like your child gets repainted — it never gets shipped.</div>
+        </div>
+        <div class="gitem">
+          <div class="t"><span class="ck">✓</span> Read a whole book before you pay</div>
+          <div class="d">No paying blind: the full sample book on this page is a real book our studio made from one photo. Read every page of it, free, before you spend a cent.</div>
+        </div>
+        <div class="gitem">
+          <div class="t"><span class="ck">✓</span> Fixed free — or your money back</div>
+          <div class="d">If a page in your delivered book still doesn't look like your child, tell us within 7 days and we repaint it free. If we can't get it right, we refund you in full.</div>
+        </div>
+      </div>
+    </div>
+
     <div class="sec-head reveal" id="book">
       <span class="sec-num">1</span>
       <div><h2>From photo to <em>storybook</em></h2><p>Every book starts the same way: one ordinary photo of your child.</p></div>
@@ -384,7 +414,7 @@
         <div class="row">
           <a class="btn ink" id="buyBtn" href="#" target="_blank" rel="noopener">Get your license key — $19.99 <span class="arr">→</span></a>
         </div>
-        <p class="fine" style="margin-top:10px;">Already bought? Skip the button — paste your key above and fill in the story details below.</p>
+        <p class="fine" style="margin-top:10px;">Already bought? Skip the button — paste your key above and fill in the story details below. Every book carries the likeness guarantee at the top of this page: checked page by page before delivery, repainted free if a page misses.</p>
       </div>
 
       <div class="opanel reveal">
