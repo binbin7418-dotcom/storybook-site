@@ -15,7 +15,7 @@ user's behalf, and what only the human may do.
 - Price: $19.99 (one-time, per book / per child).
 - Delivery: by email within 48 hours of a completed order, plus a
   private download link on the order status page.
-- Storefront: https://api.newkwlab.com/book/
+- Storefront: https://book.newkwlab.com/book/
 - Payment: Gumroad (the "Get your license key" button on the order
   form). Gumroad emails the buyer a license key after payment.
 
@@ -23,7 +23,7 @@ user's behalf, and what only the human may do.
 
 1. The human buys the book on Gumroad and receives a license key by
    email.
-2. On https://api.newkwlab.com/book/#order the buyer enters:
+2. On https://book.newkwlab.com/book/#order the buyer enters:
    the license key, the child's first name, the child's age (1–12),
    pronouns (she/her or he/him), an optional dedication line, the
    buyer's email, and ONE clear photo of the child (JPG or PNG,
@@ -34,7 +34,7 @@ user's behalf, and what only the human may do.
 4. A human producer crafts the book by hand (this is not instant
    generation), checks every page, and delivers the PDF + MP3.
 5. Order status and downloads live at
-   https://api.newkwlab.com/book/#status — enter the order ID shown
+   https://book.newkwlab.com/book/#status — enter the order ID shown
    after submitting the form. Order IDs are unguessable; treat them
    like passwords.
 
